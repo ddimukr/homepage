@@ -81,8 +81,9 @@ body {
 .contact-info__header {
   color: var(--primary-text-color);
   margin-bottom: 15px;
-  text-decoration-color: var(--text-decoration-color);
-  text-decoration-line: underline;
+
+  /* text-decoration-color: var(--text-decoration-color);
+  text-decoration-line: underline; */
 }
 
 .contact-info__sub-header {
@@ -132,7 +133,7 @@ body {
   width: 100px;
   height: 100px;
   object-fit: cover;
-  border: 3px solid;
+  border: 1px solid;
   border-color: var(--text-decoration-color);
 }
 
@@ -193,8 +194,10 @@ body {
 
 .experiences__company-header-name {
   color: var(--primary-text-color);
-  text-decoration-color: var(--text-decoration-color);
-  text-decoration-line: underline;
+
+  /* text-decoration-color: var(--text-decoration-color);
+  text-decoration-line: underline; */
+
   text-align: left;
   margin-bottom: 20px;
 }
@@ -271,8 +274,6 @@ body {
 .magic:hover::after {
   content: " 🧙";
   font-size: 75%;
-
-  /* text-decoration-line: none !important;
   position: relative;
-  bottom: 3px; */
+  bottom: 2px;
 }
